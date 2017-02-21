@@ -5,7 +5,7 @@ Final Secret Message Encoder/Decoder Program'''
 
 import message_encoder_part1
 
-#set a loop to ask the user to inout e or d until they input q
+#set a loop to ask the user to input e or d until they input q
 while True:
 
     #ask the user to choose what they would like to do
