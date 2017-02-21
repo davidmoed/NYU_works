@@ -9,3 +9,13 @@
   <li>String manipulation</li>
   <li>String shifting to "encode messages"</li>
 </ul>
+
+
+<h2>Java</h2>
+<h3>Java was the language used in both my Intro to Computer Sci Class, and Data Structures Class. Some projects I did for class are:</h3>
+
+<ul>
+  <li>Pong in processing</li>
+  <li>A sample micro "Facebook" tool</li>
+  <li>A sample movie database tool</li>
+</ul>
