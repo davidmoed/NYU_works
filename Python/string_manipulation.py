@@ -17,7 +17,7 @@ for i in name:
     if not i.isalpha():
         name = name.replace(i,"")
 
-
+#show the user their cleaned up name
 print ("Your cleaned up name is", name)
 
 total_val = 0

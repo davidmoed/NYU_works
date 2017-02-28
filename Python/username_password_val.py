@@ -16,6 +16,8 @@ while True:
                 upper = 0
                 lower = 0
                 numeric = 0
+
+                #loop through the username and increment required values
                 for i in username:
                     if i.isupper():
                         upper += 1
@@ -23,6 +25,8 @@ while True:
                         lower += 1
                     elif i.isnumeric():
                         numeric += 1
+
+                #print error messages if needed
                 if upper == 0:
                     print ("Your username must contain at least one uppercase character.")
                     continue
@@ -68,6 +72,8 @@ while True:
             numeric = 0
             char = 0
             valid_char = 0
+
+            #loop through the password and increment required values
             for i in password:
                 if i.isupper():
                     upper += 1
@@ -80,6 +86,8 @@ while True:
                 for s in password:
                     if ("#" in password) or ("%" in password) or ("$" in password) or ("&" in password):
                         valid_char += 1
+
+            #print error messages if needed
             if upper == 0:
                 print ("Your password must contain at least one uppercase character.")
                 continue
