@@ -5,6 +5,9 @@ Secret Message Encoder/Decoder Program'''
 
 import random
 
+#functions to be used in part 2
+
+
 def add_letters(word, num):
 
     new_word = ""

@@ -27,9 +27,9 @@ while True:
             num = int (input ("Enter a number between 1 and 5: "))
 
         #call the function that will add letters to the user's word and save it as added
-        added = Moed_David_Assign7_Part3a.add_letters(word, num)
+        added = message_encoder_part1.add_letters(word, num)
         #call the funtion that will shift the letters of "added," the word with the extra characters
-        shifted = Moed_David_Assign7_Part3a.shift_characters(added, num)
+        shifted = message_encoder_part1.shift_characters(added, num)
 
         #print the final encoded word
         print ("Your encoded word is ", shifted)
@@ -50,10 +50,10 @@ while True:
             num = int (input ("Enter a number between 1 and 5: "))
 
         #call the function that will remove all letters that are not in the original user input
-        removed = Moed_David_Assign7_Part3a.remove_letters(word, num)
+        removed = message_encoder_part1.remove_letters(word, num)
         
         #call the function that will shift the letters back to their original postition
-        reshifted = Moed_David_Assign7_Part3a.shift_characters(removed, -num)
+        reshifted = message_encoder_part1.shift_characters(removed, -num)
 
         #print the final decoded word
         print ("Your decoded word is ", reshifted)
