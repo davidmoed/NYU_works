@@ -1,11 +1,8 @@
 	/*
 	 * Assignment: Pong Game: Assignment 5
-	 * Net ID: djm552
-	 * 
 	 * Author: David Moed
 	 * 
 	 * Completion Time: 12 hours
-	 *
 	 */
 
 /*
